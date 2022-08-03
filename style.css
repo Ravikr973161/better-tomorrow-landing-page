@@ -1,0 +1,99 @@
+*{
+    outline: none;
+    margin: 0;
+    top: 0;
+}
+
+body{
+   background-color: none;
+   background-image: url('../assets/bg.png');
+   background-size: cover;
+   background-repeat: none;
+  }
+
+[aria-label="navbar"]{
+   /* display: flex; */
+   /* flex-direction: row; */
+   width:fit-content;
+   background-color: #1f1f1f;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 0 8rem;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    height: 40px;
+    padding: 10px;;
+}
+
+.list{
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   width: 700px;
+}
+
+.list-item{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.button-small{
+    margin-left: 170px;
+    color: #ffffff;
+    background-color: #E03B8B;
+   height: 35px;
+   width: 80px;
+    border: none;
+    border-radius: 10px;
+}
+
+.line{
+    border-left: 3px solid #ffffff;
+    height: 30px;
+    top: 0;
+}
+
+
+/* hero section  */
+.hero{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  
+}
+
+.hero-heading{
+    color: #ffffff;
+    font-size: 70px;
+    width: 600px;
+    text-align: center;
+}
+
+.hero-description{
+    color: #ffffff;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.button-large{
+    color: #ffffff;
+    background-color: #E03B8B;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    position:relative;
+    top:20px;
+    font-size: 20px;
+}
